@@ -1,0 +1,22 @@
+version: '3.9'
+
+services:
+  db:
+    image: postgres
+    environment:
+      POSTGRES_PASSWORD: 1234
+      POSTGRES_USER: postgres
+      POSTGRES_DB: taxapp
+    volumes:
+      - data:/var/lib/postgresql/data
+  server:
+    build: .
+    environment:
+      DATABASE_HOST: db
+    depends_on:
+      - db
+    ports:
+      - '5000:5000'
+
+volumes:
+  data:

@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "admin",
+    "email": "admin@test.com",
+    "password": "$2a$12$kCIe8OqufT2FayG9L2fFuOU.ND1sumsaXxLsgjVvOKrFfB5xfshVO",
+    "passwordConfirm": "",
+    "role": "admin",
+    "createdAt": "2021-09-01 19:11:05.624+05:45",
+    "updatedAt": "2021-09-01 19:11:05.624+05:45"
+  },
+  {
+    "id": 2,
+    "name": "Accountant 1",
+    "email": "accountant1@test.com",
+    "password": "$2a$12$YLUhyb/I1wrQPN4eDDEOduu5FjwC.cYpsswgRFT1Cg/vwhypGfaE6",
+    "passwordConfirm": "",
+    "role": "tax-accountant",
+    "createdAt": "2021-09-01 19:12:34.935+05:45",
+    "updatedAt": "2021-09-01 19:12:34.935+05:45"
+  },
+  {
+    "id": 3,
+    "name": "John Smith",
+    "email": "user1@test.com",
+    "password": "$2a$12$LHyg00L7liQJEs25nIOaB.ws8rEaoNux498hdaW.UXPu8JvbTcXEm",
+    "passwordConfirm": "",
+    "role": "tax-payer",
+    "createdAt": "2021-10-26 20:07:20.123+05:45",
+    "updatedAt": "2021-10-26 20:07:20.123+05:45"
+  },
+  {
+    "id": 4,
+    "name": "Sam Doe",
+    "email": "user2@test.com",
+    "password": "$2a$12$LHyg00L7liQJEs25nIOaB.ws8rEaoNux498hdaW.UXPu8JvbTcXEm",
+    "passwordConfirm": "",
+    "role": "tax-payer",
+    "createdAt": "2021-10-26 20:07:20.123+05:45",
+    "updatedAt": "2021-10-26 20:07:20.123+05:45"
+  }
+]
